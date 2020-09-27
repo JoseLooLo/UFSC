@@ -1,6 +1,8 @@
 #ifndef STRUCTURES_LINKED_QUEUE_H
 #define STRUCTURES_LINKED_QUEUE_H
 
+#include <stdexcept>
+
 namespace structures {
 
 template<typename T>

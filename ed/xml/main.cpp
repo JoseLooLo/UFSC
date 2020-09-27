@@ -11,14 +11,11 @@ int main() {
 
     parser::Parser parser(xmlfilename);
     if (parser.parseFile()) {
-        printf("error!\n");
+        std::cout << "error\n" << std::endl;
         return 0;
     } else {
-        printf("psé\n");
         return 0;
     }
-
-    std::cout << xmlfilename << std::endl;  // esta linha deve ser removida
 
     return 0;
 }
